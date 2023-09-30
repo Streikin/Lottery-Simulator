@@ -2,9 +2,8 @@
 This is a practice lottery simulator that can be set to your likings.
 Note:
       -This is not a real lottery, you cant actually play it but just see its "real" odds. You also won't win shit.
-      -The random module in python can never be fully random and in reality there also is not algorithm, just pure randomness.
-      -In theory, the execution time of this program can be in between instant and eternity.
-      -I'm not a pro and this is just something i made for fun and thought i should upload it to github, don't expect anything good at all.
+      -The random module in python can never be fully random.
+      -In theory, the execution time of this program can be instant or eternity.
       -There is no kind of mega ball.
 
       
