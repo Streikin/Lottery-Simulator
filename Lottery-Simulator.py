@@ -1,5 +1,6 @@
 #Please view the readme file to understand how everything works easily
-
+import random
+from statistics import mean
 
 # fast lottery: 3 / 70 / 20 / True
 # realistic lottery: 5 / 70 / 1 
@@ -11,8 +12,6 @@ print_intermediate_results = True
 if balls_amount >= 4 or max_number_amount >= 49:
     print("Lottery started, this can take a while.")
     print("...")
-import random
-from statistics import mean
 
 count = 0
 tries = 0
