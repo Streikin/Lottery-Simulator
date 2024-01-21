@@ -3,15 +3,14 @@ import random
 from statistics import mean
 
 # fast lottery: 3 / 70 / 20 / True
-# realistic lottery: 5 / 70 / 1 
+# realistic lottery: 5 / 70 / 1 / True
 balls_amount = 3                    
 max_number_amount = 70              
 lotteries_amount = 20               
 print_intermediate_results = True   
 # --------------------
 if balls_amount >= 4 or max_number_amount >= 49:
-    print("Lottery started, this can take a while.")
-    print("...")
+    print("Lottery started, this can take a while.\n...")
 
 count = 0
 tries = 0
