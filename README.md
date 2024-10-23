@@ -2,7 +2,6 @@
 This is a practice lottery simulator that can be set to your likings.  
 **Note:**  
       -This is not a real lottery, you cant actually play it but just see the "real" odds to win a lottery.   
-      -The random module in python can never be fully random.  
       -There is no kind of mega ball.        
        
       
