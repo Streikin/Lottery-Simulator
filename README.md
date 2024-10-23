@@ -23,7 +23,7 @@ Its recommended to turn this on, but it will always increase the execution time.
     
 **How the code works:**  
       
-The code will generate two random combinations of balls every single time that have to be equal to continue.  
+The code will generate two random combinations of balls each time which need to be equal to continue.  
 When the combinations are equal, the tries get printed if (print_intermediate_results) is true or if it's just a single lottery.     
 
 
