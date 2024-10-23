@@ -15,9 +15,9 @@ max_number_amount: this sets the max amount of numbers on every ball.
 The higher, the longer the execution time.  
   
 lotteries_amount: this is basically how often your lottery should be done.  
-If you set it on five for example, it will do five lotteries and calculates the avg tries at the end.   
+If you set it on five for example, it will do five lotteries and calculate the avg tries at the end.   
     
-print_intermediate_results: this sets if you want to print the results of every lottery or if you just want the avg results.  
+print_intermediate_results: sets if you want to print the results of every lottery or if you just want the avg results.  
 Its recommended to turn this on, but it will always increase the execution time.   
      
     
