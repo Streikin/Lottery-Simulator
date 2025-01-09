@@ -9,27 +9,13 @@ This is a practice lottery simulator that can be set to your likings.
           
 balls_amount: in a real lottery there are different balls to set the lottery outcome, the same here.  
 You can simply set the amount of balls used in this simulation.  
-The tries needed for winning increase drastically with every ball and the execution time too.         
+The tries needed for winning increase drastically with every ball and the execution time as well       
       
-max_number_amount: this sets the max amount of numbers on every ball.  
-The higher, the longer the execution time.  
+max_number_amount: sets the max amount of numbers on every ball.  
+Higher values increase the execution time   
   
-lotteries_amount: this is basically how often your lottery should be done.  
+lotteries_amount: this sets how often your lottery should be done.  
 If you set it on five for example, it will do five lotteries and calculate the avg tries at the end.   
     
-print_intermediate_results: sets if you want to print the results of every lottery or if you just want the avg results.  
+print_intermediate_results: True: prints the results of every lottery | False: just prints the avg tries at the end   
 Its recommended to turn this on, but it will always increase the execution time.   
-     
-    
-**How the code works:**  
-      
-The code will generate two random combinations of balls each time which need to be equal to continue.  
-When the combinations are equal, the tries get printed if (print_intermediate_results) is true or if it's just a single lottery.     
-
-
-
-
-
-
-      
-      
