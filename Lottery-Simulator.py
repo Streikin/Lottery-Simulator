@@ -1,4 +1,4 @@
-#Please view the readme file to understand how everything works easily
+#Please check the readme file to understand how everything works easily
 import random
 from statistics import mean
 
@@ -31,7 +31,7 @@ def lottery(numbers, biggest):
     numbers.sort()
     return count
 
-#get multible lotteries results
+#get multible lottery results
 for i in range(lotteries_amount):
     tries = 0
     count = 0
@@ -41,12 +41,10 @@ for i in range(lotteries_amount):
     absolute_tries.append(tries)
 
     if print_intermediate_results or lotteries_amount == 1:
-        print("")
-        print(f"Lottery {i+1}/{lotteries_amount}:")
+        print(f"\nLottery {i+1}/{lotteries_amount}:")
         print(f"Tries: {tries}")
 
-print("")
-print(f"This lottery had {balls_amount} balls with each having a span of 1-{max_number_amount}.")
+print(f"\nThis lottery had {balls_amount} balls with each having a span of 1-{max_number_amount}.")
 
 #get avg tries
 avg_tries = mean(absolute_tries)
